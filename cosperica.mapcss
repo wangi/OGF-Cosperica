@@ -1,0 +1,33 @@
+relation[boundary=grid]:closed
+ {
+   width: 1;
+   color: black;
+   opacity: 1;
+   dashes: 2, 15;
+   fill-color: orange;
+   fill-opacity: 0.1;
+   font-size: 16;
+   text-opacity: 0.25;
+   font-weight: bold;
+   text-color: black;
+   text-halo-color: white;
+   text-halo-radius: 1;
+   text: name;
+   text-position: center;
+ }
+ relation[boundary=drainage_basin]:closed
+ {
+   width: 1;
+   color: blue;
+   opacity: 0.7;
+   dashes: 2,2,4,2;
+   font-size: 10;
+   font-weight: bold;
+   text-color: blue;
+   text-halo-color: white;
+   text-halo-radius: 1;
+   text: name;
+   text-position: center;
+   fill-color: blue;
+   fill-opacity: 0.1;
+ }
