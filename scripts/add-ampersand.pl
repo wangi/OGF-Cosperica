@@ -1,0 +1,4 @@
+while( <STDIN> )
+{
+	print "* $_";
+}
